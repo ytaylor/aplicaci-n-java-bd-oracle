@@ -28,4 +28,4 @@ En caso de que la inserción tenga éxito, el método devolverá un objeto Produ
  - List<Producto> queryProductosByPvp(double min, double max)
 Esta funcionalidad devuelve una lista conteniendo todos los productos cuyo PVP esté comprendido entre min y max.
  - String queryAllProductosAsJson()
-Esta funcionalidad permite obtener una cadena de caracteres JSON que incluye la información de todos los productos existentes en la base de datos. El JSON debe tener la estructura que se indica a continuación:
+Esta funcionalidad permite obtener una cadena de caracteres JSON que incluye la información de todos los productos existentes en la base de datos.
